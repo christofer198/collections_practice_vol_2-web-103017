@@ -60,7 +60,7 @@ end
 def find_cool(hash)
   hash.each do |key|
     if key[:temperature] == "cool"
-      return key
+      return key.to_a
     end
   end
 end
