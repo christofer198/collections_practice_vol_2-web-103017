@@ -67,8 +67,8 @@ def find_cool(hash)
 end
 
 def organize_schools(hash)
-  new_hash = {"NYC"=>["hello"], "SF"=>[], "Chicago"=>[]}
+  new_hash = {"NYC"=>[], "SF"=>[], "Chicago"=>[]}
   hash.each do |key, value|
-    return new_hash[value[:location]].push("hello")
+    return new_hash[value[:location]].push(key)
   end
 end
