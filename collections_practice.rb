@@ -69,4 +69,5 @@ end
 def organize_schools(hash)
   hash.each do |key, value|
     return value
+  end
 end
