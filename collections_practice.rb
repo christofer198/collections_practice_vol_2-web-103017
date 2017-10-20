@@ -49,5 +49,5 @@ end
 
 def merge_data(arr1, arr2)
 
-  arr2["ashley"]
+  arr2[0]
 end
