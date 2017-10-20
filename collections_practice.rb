@@ -49,8 +49,8 @@ end
 
 def merge_data(arr1, arr2)
   name_array = []
-  arr1.each do |key,value|
-    return value
+  arr1.each do |key|
+    return arr1[key]
   end
   #return arr1[0].merge(arr2[0]["blake"])
 
