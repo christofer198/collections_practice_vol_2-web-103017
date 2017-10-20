@@ -55,7 +55,7 @@ def merge_data(arr1, arr2)
     count += 1
   end
   return name_array
-  #return arr1[0].merge(arr2[0]["blake"])
+end
 
-  #arr2[0]["blake"]
+def find_cool
 end
