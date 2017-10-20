@@ -58,9 +58,10 @@ def merge_data(arr1, arr2)
 end
 
 def find_cool(hash)
+  array = []
   hash.each do |key|
     if key[:temperature] == "cool"
-      return key.to_a
+      return array.push(key)
     end
   end
 end
