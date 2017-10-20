@@ -54,6 +54,7 @@ def merge_data(arr1, arr2)
     name_array.push(arr1[count].merge(arr2[count][key[:first_name]]))
     count += 1
   end
+  return name_array
   #return arr1[0].merge(arr2[0]["blake"])
 
   #arr2[0]["blake"]
