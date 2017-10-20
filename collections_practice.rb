@@ -50,7 +50,7 @@ end
 def merge_data(arr1, arr2)
   name_array = []
   arr1.each do |key|
-    return key[:first_name]
+    return arr1[0].merge(arr2[0][key[:first_name]])
   end
   #return arr1[0].merge(arr2[0]["blake"])
 
