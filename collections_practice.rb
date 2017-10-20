@@ -60,7 +60,7 @@ end
 def find_cool(hash)
   hash.each do |key|
     key.each do |name, temp|
-      return name
+      return temp
     end
   end
 end
