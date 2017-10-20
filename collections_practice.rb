@@ -67,5 +67,6 @@ def find_cool(hash)
 end
 
 def organize_schools(hash)
-  return hash
+  hash.each do |key, value|
+    return value
 end
