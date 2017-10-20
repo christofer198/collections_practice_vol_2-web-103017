@@ -48,7 +48,11 @@ def count_elements(array)
 end
 
 def merge_data(arr1, arr2)
-  return arr1[0].merge(arr2[0]["blake"])
+  name_array = []
+  arr1.each do |key,value|
+    return key
+  end
+  #return arr1[0].merge(arr2[0]["blake"])
 
   #arr2[0]["blake"]
 end
