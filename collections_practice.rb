@@ -61,5 +61,6 @@ def find_cool(hash)
   hash.each do |key|
     key.each do |name, temp|
       return name
+    end
   end
 end
