@@ -59,6 +59,6 @@ end
 
 def find_cool(hash)
   hash.each do |key|
-    return key
+    return key[:temperature]
   end
 end
