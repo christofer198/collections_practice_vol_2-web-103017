@@ -66,5 +66,6 @@ def find_cool(hash)
   end
 end
 
-def organize_schools
+def organize_schools(hash)
+  return Hash.new { |hash, key| hash[key] =  }
 end
